@@ -1,0 +1,28 @@
+table {
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    width: 100%;
+}
+
+#show th,
+#show td {
+    padding: 10px;
+}
+
+#btna td input {
+    width: 100%;
+}
+
+/* Media Query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    #show th,
+    #show td {
+        padding: 6px;
+    }
+}
